@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED000B9D1E4C478600D7FF1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED000B9C1E4C478600D7FF1E /* main.m */; };
+		ED000BA01E4C478600D7FF1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED000B9F1E4C478600D7FF1E /* AppDelegate.m */; };
+		ED000BA31E4C478600D7FF1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED000BA21E4C478600D7FF1E /* ViewController.m */; };
+		ED000BA61E4C478600D7FF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED000BA41E4C478600D7FF1E /* Main.storyboard */; };
+		ED000BA81E4C478600D7FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED000BA71E4C478600D7FF1E /* Assets.xcassets */; };
+		ED000BAB1E4C478600D7FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED000BA91E4C478600D7FF1E /* LaunchScreen.storyboard */; };
+		ED000BB61E4C478600D7FF1E /* lamborghiniTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED000BB51E4C478600D7FF1E /* lamborghiniTestTests.m */; };
+		ED000BC11E4C478600D7FF1E /* lamborghiniTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED000BC01E4C478600D7FF1E /* lamborghiniTestUITests.m */; };
+		ED5E7C8E1E5A90B8002635B2 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C8D1E5A90B8002635B2 /* background.jpg */; };
+		ED5E7C901E5A98A7002635B2 /* Ferrari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C8F1E5A98A7002635B2 /* Ferrari@3x.png */; };
+		ED5E7C961E5AC0B7002635B2 /* Audiwheel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C911E5AC0B7002635B2 /* Audiwheel@3x.png */; };
+		ED5E7C971E5AC0B7002635B2 /* Benzwheel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C921E5AC0B7002635B2 /* Benzwheel@3x.png */; };
+		ED5E7C981E5AC0B7002635B2 /* BMWwheel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C931E5AC0B7002635B2 /* BMWwheel@3x.png */; };
+		ED5E7C991E5AC0B7002635B2 /* Ferrariwheel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C941E5AC0B7002635B2 /* Ferrariwheel@3x.png */; };
+		ED5E7C9A1E5AC0B7002635B2 /* Lamborghiniwheel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C951E5AC0B7002635B2 /* Lamborghiniwheel@3x.png */; };
+		ED5E7CA11E5AF6B9002635B2 /* JeepCherokee@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C9D1E5AF6B9002635B2 /* JeepCherokee@3x.png */; };
+		ED5E7CA21E5AF6B9002635B2 /* JeepCherokeeCarlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7C9E1E5AF6B9002635B2 /* JeepCherokeeCarlight@3x.png */; };
+		ED5E7CA61E5AFA81002635B2 /* JeepCherokee.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7CA51E5AFA81002635B2 /* JeepCherokee.plist */; };
+		ED5E7CA91E5AFB35002635B2 /* JeepCherokeehighbeam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7CA71E5AFB35002635B2 /* JeepCherokeehighbeam@3x.png */; };
+		ED5E7CAA1E5AFB35002635B2 /* JeepCherokeelight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7CA81E5AFB35002635B2 /* JeepCherokeelight@3x.png */; };
+		ED5E7CAC1E5B00DE002635B2 /* JeepCherokeewheel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E7CAB1E5B00DE002635B2 /* JeepCherokeewheel@3x.png */; };
+		EDEA12721E56D05F00DE16F1 /* Lamborghini.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12711E56D05F00DE16F1 /* Lamborghini.plist */; };
+		EDEA12771E56E72400DE16F1 /* Lamborghini@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12731E56E72400DE16F1 /* Lamborghini@3x.png */; };
+		EDEA12781E56E72400DE16F1 /* LamborghiniCarlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12741E56E72400DE16F1 /* LamborghiniCarlight@3x.png */; };
+		EDEA12791E56E72400DE16F1 /* Lamborghinihighbeam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12751E56E72400DE16F1 /* Lamborghinihighbeam@3x.png */; };
+		EDEA127A1E56E72400DE16F1 /* Lamborghinilight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12761E56E72400DE16F1 /* Lamborghinilight@3x.png */; };
+		EDEA12841E56F0B700DE16F1 /* FerrariCarlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12801E56F0B700DE16F1 /* FerrariCarlight@3x.png */; };
+		EDEA12851E56F0B700DE16F1 /* Ferrarihighbeam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12811E56F0B700DE16F1 /* Ferrarihighbeam@3x.png */; };
+		EDEA12861E56F0B700DE16F1 /* Ferrarilight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12821E56F0B700DE16F1 /* Ferrarilight@3x.png */; };
+		EDEA12881E56F0CD00DE16F1 /* Ferrari.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12871E56F0CD00DE16F1 /* Ferrari.plist */; };
+		EDEA128A1E56F5FD00DE16F1 /* BMW.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12891E56F5FD00DE16F1 /* BMW.plist */; };
+		EDEA128F1E56F60B00DE16F1 /* BMW@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA128B1E56F60B00DE16F1 /* BMW@3x.png */; };
+		EDEA12901E56F60B00DE16F1 /* BMWCarlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA128C1E56F60B00DE16F1 /* BMWCarlight@3x.png */; };
+		EDEA12911E56F60B00DE16F1 /* BMWhighbeam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA128D1E56F60B00DE16F1 /* BMWhighbeam@3x.png */; };
+		EDEA12921E56F60B00DE16F1 /* BMWlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA128E1E56F60B00DE16F1 /* BMWlight@3x.png */; };
+		EDEA12961E56FAEC00DE16F1 /* Audi.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12951E56FAEC00DE16F1 /* Audi.plist */; };
+		EDEA129B1E56FAF200DE16F1 /* Audi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12971E56FAF200DE16F1 /* Audi@3x.png */; };
+		EDEA129C1E56FAF200DE16F1 /* AudiCarlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12981E56FAF200DE16F1 /* AudiCarlight@3x.png */; };
+		EDEA129D1E56FAF200DE16F1 /* Audihighbeam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12991E56FAF200DE16F1 /* Audihighbeam@3x.png */; };
+		EDEA129E1E56FAF200DE16F1 /* Audilight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA129A1E56FAF200DE16F1 /* Audilight@3x.png */; };
+		EDEA12A01E57016200DE16F1 /* Benz.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEA129F1E57016100DE16F1 /* Benz.plist */; };
+		EDEA12A51E57016B00DE16F1 /* Benz@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12A11E57016B00DE16F1 /* Benz@3x.png */; };
+		EDEA12A61E57016B00DE16F1 /* BenzCarlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12A21E57016B00DE16F1 /* BenzCarlight@3x.png */; };
+		EDEA12A71E57016B00DE16F1 /* Benzhighbeam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12A31E57016B00DE16F1 /* Benzhighbeam@3x.png */; };
+		EDEA12A81E57016B00DE16F1 /* Benzlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA12A41E57016B00DE16F1 /* Benzlight@3x.png */; };
+		EDEEE5891E4D99E900E2851C /* CarActionView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EDEEE5881E4D99E900E2851C /* CarActionView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED000BB21E4C478600D7FF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED000B901E4C478600D7FF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED000B971E4C478600D7FF1E;
+			remoteInfo = lamborghiniTest;
+		};
+		ED000BBD1E4C478600D7FF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED000B901E4C478600D7FF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED000B971E4C478600D7FF1E;
+			remoteInfo = lamborghiniTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED000B981E4C478600D7FF1E /* lamborghiniTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lamborghiniTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED000B9C1E4C478600D7FF1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED000B9E1E4C478600D7FF1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED000B9F1E4C478600D7FF1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED000BA11E4C478600D7FF1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED000BA21E4C478600D7FF1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED000BA51E4C478600D7FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED000BA71E4C478600D7FF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED000BAA1E4C478600D7FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED000BAC1E4C478600D7FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED000BB11E4C478600D7FF1E /* lamborghiniTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lamborghiniTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED000BB51E4C478600D7FF1E /* lamborghiniTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lamborghiniTestTests.m; sourceTree = "<group>"; };
+		ED000BB71E4C478600D7FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED000BBC1E4C478600D7FF1E /* lamborghiniTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lamborghiniTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED000BC01E4C478600D7FF1E /* lamborghiniTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lamborghiniTestUITests.m; sourceTree = "<group>"; };
+		ED000BC21E4C478600D7FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5E7C8D1E5A90B8002635B2 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		ED5E7C8F1E5A98A7002635B2 /* Ferrari@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ferrari@3x.png"; sourceTree = "<group>"; };
+		ED5E7C911E5AC0B7002635B2 /* Audiwheel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audiwheel@3x.png"; sourceTree = "<group>"; };
+		ED5E7C921E5AC0B7002635B2 /* Benzwheel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Benzwheel@3x.png"; sourceTree = "<group>"; };
+		ED5E7C931E5AC0B7002635B2 /* BMWwheel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMWwheel@3x.png"; sourceTree = "<group>"; };
+		ED5E7C941E5AC0B7002635B2 /* Ferrariwheel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ferrariwheel@3x.png"; sourceTree = "<group>"; };
+		ED5E7C951E5AC0B7002635B2 /* Lamborghiniwheel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lamborghiniwheel@3x.png"; sourceTree = "<group>"; };
+		ED5E7C9D1E5AF6B9002635B2 /* JeepCherokee@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JeepCherokee@3x.png"; sourceTree = "<group>"; };
+		ED5E7C9E1E5AF6B9002635B2 /* JeepCherokeeCarlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JeepCherokeeCarlight@3x.png"; sourceTree = "<group>"; };
+		ED5E7CA51E5AFA81002635B2 /* JeepCherokee.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JeepCherokee.plist; sourceTree = "<group>"; };
+		ED5E7CA71E5AFB35002635B2 /* JeepCherokeehighbeam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JeepCherokeehighbeam@3x.png"; sourceTree = "<group>"; };
+		ED5E7CA81E5AFB35002635B2 /* JeepCherokeelight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JeepCherokeelight@3x.png"; sourceTree = "<group>"; };
+		ED5E7CAB1E5B00DE002635B2 /* JeepCherokeewheel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JeepCherokeewheel@3x.png"; sourceTree = "<group>"; };
+		EDEA12711E56D05F00DE16F1 /* Lamborghini.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lamborghini.plist; sourceTree = "<group>"; };
+		EDEA12731E56E72400DE16F1 /* Lamborghini@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lamborghini@3x.png"; sourceTree = "<group>"; };
+		EDEA12741E56E72400DE16F1 /* LamborghiniCarlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LamborghiniCarlight@3x.png"; sourceTree = "<group>"; };
+		EDEA12751E56E72400DE16F1 /* Lamborghinihighbeam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lamborghinihighbeam@3x.png"; sourceTree = "<group>"; };
+		EDEA12761E56E72400DE16F1 /* Lamborghinilight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lamborghinilight@3x.png"; sourceTree = "<group>"; };
+		EDEA12801E56F0B700DE16F1 /* FerrariCarlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FerrariCarlight@3x.png"; sourceTree = "<group>"; };
+		EDEA12811E56F0B700DE16F1 /* Ferrarihighbeam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ferrarihighbeam@3x.png"; sourceTree = "<group>"; };
+		EDEA12821E56F0B700DE16F1 /* Ferrarilight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ferrarilight@3x.png"; sourceTree = "<group>"; };
+		EDEA12871E56F0CD00DE16F1 /* Ferrari.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Ferrari.plist; sourceTree = "<group>"; };
+		EDEA12891E56F5FD00DE16F1 /* BMW.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMW.plist; sourceTree = "<group>"; };
+		EDEA128B1E56F60B00DE16F1 /* BMW@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMW@3x.png"; sourceTree = "<group>"; };
+		EDEA128C1E56F60B00DE16F1 /* BMWCarlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMWCarlight@3x.png"; sourceTree = "<group>"; };
+		EDEA128D1E56F60B00DE16F1 /* BMWhighbeam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMWhighbeam@3x.png"; sourceTree = "<group>"; };
+		EDEA128E1E56F60B00DE16F1 /* BMWlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMWlight@3x.png"; sourceTree = "<group>"; };
+		EDEA12951E56FAEC00DE16F1 /* Audi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Audi.plist; sourceTree = "<group>"; };
+		EDEA12971E56FAF200DE16F1 /* Audi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audi@3x.png"; sourceTree = "<group>"; };
+		EDEA12981E56FAF200DE16F1 /* AudiCarlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AudiCarlight@3x.png"; sourceTree = "<group>"; };
+		EDEA12991E56FAF200DE16F1 /* Audihighbeam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audihighbeam@3x.png"; sourceTree = "<group>"; };
+		EDEA129A1E56FAF200DE16F1 /* Audilight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audilight@3x.png"; sourceTree = "<group>"; };
+		EDEA129F1E57016100DE16F1 /* Benz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Benz.plist; sourceTree = "<group>"; };
+		EDEA12A11E57016B00DE16F1 /* Benz@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Benz@3x.png"; sourceTree = "<group>"; };
+		EDEA12A21E57016B00DE16F1 /* BenzCarlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BenzCarlight@3x.png"; sourceTree = "<group>"; };
+		EDEA12A31E57016B00DE16F1 /* Benzhighbeam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Benzhighbeam@3x.png"; sourceTree = "<group>"; };
+		EDEA12A41E57016B00DE16F1 /* Benzlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Benzlight@3x.png"; sourceTree = "<group>"; };
+		EDEEE5871E4D99E900E2851C /* CarActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarActionView.h; sourceTree = "<group>"; };
+		EDEEE5881E4D99E900E2851C /* CarActionView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CarActionView.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED000B951E4C478600D7FF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED000BAE1E4C478600D7FF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED000BB91E4C478600D7FF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED000B8F1E4C478600D7FF1E = {
+			isa = PBXGroup;
+			children = (
+				ED000B9A1E4C478600D7FF1E /* lamborghiniTest */,
+				ED000BB41E4C478600D7FF1E /* lamborghiniTestTests */,
+				ED000BBF1E4C478600D7FF1E /* lamborghiniTestUITests */,
+				ED000B991E4C478600D7FF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED000B991E4C478600D7FF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED000B981E4C478600D7FF1E /* lamborghiniTest.app */,
+				ED000BB11E4C478600D7FF1E /* lamborghiniTestTests.xctest */,
+				ED000BBC1E4C478600D7FF1E /* lamborghiniTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED000B9A1E4C478600D7FF1E /* lamborghiniTest */ = {
+			isa = PBXGroup;
+			children = (
+				ED000B9E1E4C478600D7FF1E /* AppDelegate.h */,
+				ED000B9F1E4C478600D7FF1E /* AppDelegate.m */,
+				ED000BA11E4C478600D7FF1E /* ViewController.h */,
+				ED000BA21E4C478600D7FF1E /* ViewController.m */,
+				EDEEE5871E4D99E900E2851C /* CarActionView.h */,
+				EDEEE5881E4D99E900E2851C /* CarActionView.mm */,
+				ED5E7C8D1E5A90B8002635B2 /* background.jpg */,
+				EDEA12731E56E72400DE16F1 /* Lamborghini@3x.png */,
+				EDEA12741E56E72400DE16F1 /* LamborghiniCarlight@3x.png */,
+				EDEA12751E56E72400DE16F1 /* Lamborghinihighbeam@3x.png */,
+				EDEA12761E56E72400DE16F1 /* Lamborghinilight@3x.png */,
+				EDEA12711E56D05F00DE16F1 /* Lamborghini.plist */,
+				EDEA128B1E56F60B00DE16F1 /* BMW@3x.png */,
+				EDEA128C1E56F60B00DE16F1 /* BMWCarlight@3x.png */,
+				EDEA128D1E56F60B00DE16F1 /* BMWhighbeam@3x.png */,
+				EDEA128E1E56F60B00DE16F1 /* BMWlight@3x.png */,
+				EDEA12891E56F5FD00DE16F1 /* BMW.plist */,
+				ED5E7C8F1E5A98A7002635B2 /* Ferrari@3x.png */,
+				EDEA12801E56F0B700DE16F1 /* FerrariCarlight@3x.png */,
+				EDEA12811E56F0B700DE16F1 /* Ferrarihighbeam@3x.png */,
+				EDEA12821E56F0B700DE16F1 /* Ferrarilight@3x.png */,
+				EDEA12871E56F0CD00DE16F1 /* Ferrari.plist */,
+				EDEA12971E56FAF200DE16F1 /* Audi@3x.png */,
+				EDEA12981E56FAF200DE16F1 /* AudiCarlight@3x.png */,
+				EDEA12991E56FAF200DE16F1 /* Audihighbeam@3x.png */,
+				EDEA129A1E56FAF200DE16F1 /* Audilight@3x.png */,
+				EDEA12951E56FAEC00DE16F1 /* Audi.plist */,
+				EDEA12A11E57016B00DE16F1 /* Benz@3x.png */,
+				EDEA12A21E57016B00DE16F1 /* BenzCarlight@3x.png */,
+				EDEA12A31E57016B00DE16F1 /* Benzhighbeam@3x.png */,
+				EDEA12A41E57016B00DE16F1 /* Benzlight@3x.png */,
+				EDEA129F1E57016100DE16F1 /* Benz.plist */,
+				ED5E7C911E5AC0B7002635B2 /* Audiwheel@3x.png */,
+				ED5E7C921E5AC0B7002635B2 /* Benzwheel@3x.png */,
+				ED5E7C931E5AC0B7002635B2 /* BMWwheel@3x.png */,
+				ED5E7C941E5AC0B7002635B2 /* Ferrariwheel@3x.png */,
+				ED5E7C951E5AC0B7002635B2 /* Lamborghiniwheel@3x.png */,
+				ED5E7C9D1E5AF6B9002635B2 /* JeepCherokee@3x.png */,
+				ED5E7C9E1E5AF6B9002635B2 /* JeepCherokeeCarlight@3x.png */,
+				ED5E7CA71E5AFB35002635B2 /* JeepCherokeehighbeam@3x.png */,
+				ED5E7CA81E5AFB35002635B2 /* JeepCherokeelight@3x.png */,
+				ED5E7CA51E5AFA81002635B2 /* JeepCherokee.plist */,
+				ED5E7CAB1E5B00DE002635B2 /* JeepCherokeewheel@3x.png */,
+				ED000BA41E4C478600D7FF1E /* Main.storyboard */,
+				ED000BA71E4C478600D7FF1E /* Assets.xcassets */,
+				ED000BA91E4C478600D7FF1E /* LaunchScreen.storyboard */,
+				ED000BAC1E4C478600D7FF1E /* Info.plist */,
+				ED000B9B1E4C478600D7FF1E /* Supporting Files */,
+			);
+			path = lamborghiniTest;
+			sourceTree = "<group>";
+		};
+		ED000B9B1E4C478600D7FF1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED000B9C1E4C478600D7FF1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED000BB41E4C478600D7FF1E /* lamborghiniTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED000BB51E4C478600D7FF1E /* lamborghiniTestTests.m */,
+				ED000BB71E4C478600D7FF1E /* Info.plist */,
+			);
+			path = lamborghiniTestTests;
+			sourceTree = "<group>";
+		};
+		ED000BBF1E4C478600D7FF1E /* lamborghiniTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED000BC01E4C478600D7FF1E /* lamborghiniTestUITests.m */,
+				ED000BC21E4C478600D7FF1E /* Info.plist */,
+			);
+			path = lamborghiniTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED000B971E4C478600D7FF1E /* lamborghiniTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED000BC51E4C478600D7FF1E /* Build configuration list for PBXNativeTarget "lamborghiniTest" */;
+			buildPhases = (
+				ED000B941E4C478600D7FF1E /* Sources */,
+				ED000B951E4C478600D7FF1E /* Frameworks */,
+				ED000B961E4C478600D7FF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lamborghiniTest;
+			productName = lamborghiniTest;
+			productReference = ED000B981E4C478600D7FF1E /* lamborghiniTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED000BB01E4C478600D7FF1E /* lamborghiniTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED000BC81E4C478600D7FF1E /* Build configuration list for PBXNativeTarget "lamborghiniTestTests" */;
+			buildPhases = (
+				ED000BAD1E4C478600D7FF1E /* Sources */,
+				ED000BAE1E4C478600D7FF1E /* Frameworks */,
+				ED000BAF1E4C478600D7FF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED000BB31E4C478600D7FF1E /* PBXTargetDependency */,
+			);
+			name = lamborghiniTestTests;
+			productName = lamborghiniTestTests;
+			productReference = ED000BB11E4C478600D7FF1E /* lamborghiniTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED000BBB1E4C478600D7FF1E /* lamborghiniTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED000BCB1E4C478600D7FF1E /* Build configuration list for PBXNativeTarget "lamborghiniTestUITests" */;
+			buildPhases = (
+				ED000BB81E4C478600D7FF1E /* Sources */,
+				ED000BB91E4C478600D7FF1E /* Frameworks */,
+				ED000BBA1E4C478600D7FF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED000BBE1E4C478600D7FF1E /* PBXTargetDependency */,
+			);
+			name = lamborghiniTestUITests;
+			productName = lamborghiniTestUITests;
+			productReference = ED000BBC1E4C478600D7FF1E /* lamborghiniTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED000B901E4C478600D7FF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "WenJin Li";
+				TargetAttributes = {
+					ED000B971E4C478600D7FF1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69U78V53ZN;
+						ProvisioningStyle = Automatic;
+					};
+					ED000BB01E4C478600D7FF1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED000B971E4C478600D7FF1E;
+					};
+					ED000BBB1E4C478600D7FF1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED000B971E4C478600D7FF1E;
+					};
+				};
+			};
+			buildConfigurationList = ED000B931E4C478600D7FF1E /* Build configuration list for PBXProject "lamborghiniTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED000B8F1E4C478600D7FF1E;
+			productRefGroup = ED000B991E4C478600D7FF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED000B971E4C478600D7FF1E /* lamborghiniTest */,
+				ED000BB01E4C478600D7FF1E /* lamborghiniTestTests */,
+				ED000BBB1E4C478600D7FF1E /* lamborghiniTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED000B961E4C478600D7FF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEA12A71E57016B00DE16F1 /* Benzhighbeam@3x.png in Resources */,
+				EDEA12861E56F0B700DE16F1 /* Ferrarilight@3x.png in Resources */,
+				EDEA12771E56E72400DE16F1 /* Lamborghini@3x.png in Resources */,
+				EDEA12A61E57016B00DE16F1 /* BenzCarlight@3x.png in Resources */,
+				EDEA12841E56F0B700DE16F1 /* FerrariCarlight@3x.png in Resources */,
+				ED5E7CAA1E5AFB35002635B2 /* JeepCherokeelight@3x.png in Resources */,
+				EDEA12A01E57016200DE16F1 /* Benz.plist in Resources */,
+				EDEA12791E56E72400DE16F1 /* Lamborghinihighbeam@3x.png in Resources */,
+				EDEA12851E56F0B700DE16F1 /* Ferrarihighbeam@3x.png in Resources */,
+				EDEA12961E56FAEC00DE16F1 /* Audi.plist in Resources */,
+				ED5E7C901E5A98A7002635B2 /* Ferrari@3x.png in Resources */,
+				EDEA12901E56F60B00DE16F1 /* BMWCarlight@3x.png in Resources */,
+				ED5E7CA21E5AF6B9002635B2 /* JeepCherokeeCarlight@3x.png in Resources */,
+				EDEA12781E56E72400DE16F1 /* LamborghiniCarlight@3x.png in Resources */,
+				ED000BAB1E4C478600D7FF1E /* LaunchScreen.storyboard in Resources */,
+				ED000BA81E4C478600D7FF1E /* Assets.xcassets in Resources */,
+				EDEA128A1E56F5FD00DE16F1 /* BMW.plist in Resources */,
+				EDEA127A1E56E72400DE16F1 /* Lamborghinilight@3x.png in Resources */,
+				ED5E7C9A1E5AC0B7002635B2 /* Lamborghiniwheel@3x.png in Resources */,
+				ED5E7C961E5AC0B7002635B2 /* Audiwheel@3x.png in Resources */,
+				ED5E7CA11E5AF6B9002635B2 /* JeepCherokee@3x.png in Resources */,
+				ED5E7CAC1E5B00DE002635B2 /* JeepCherokeewheel@3x.png in Resources */,
+				ED5E7CA91E5AFB35002635B2 /* JeepCherokeehighbeam@3x.png in Resources */,
+				ED5E7C971E5AC0B7002635B2 /* Benzwheel@3x.png in Resources */,
+				EDEA12881E56F0CD00DE16F1 /* Ferrari.plist in Resources */,
+				ED5E7C981E5AC0B7002635B2 /* BMWwheel@3x.png in Resources */,
+				EDEA12A51E57016B00DE16F1 /* Benz@3x.png in Resources */,
+				EDEA12921E56F60B00DE16F1 /* BMWlight@3x.png in Resources */,
+				EDEA129D1E56FAF200DE16F1 /* Audihighbeam@3x.png in Resources */,
+				EDEA129C1E56FAF200DE16F1 /* AudiCarlight@3x.png in Resources */,
+				EDEA128F1E56F60B00DE16F1 /* BMW@3x.png in Resources */,
+				EDEA12721E56D05F00DE16F1 /* Lamborghini.plist in Resources */,
+				EDEA129E1E56FAF200DE16F1 /* Audilight@3x.png in Resources */,
+				ED5E7C8E1E5A90B8002635B2 /* background.jpg in Resources */,
+				ED000BA61E4C478600D7FF1E /* Main.storyboard in Resources */,
+				EDEA12A81E57016B00DE16F1 /* Benzlight@3x.png in Resources */,
+				ED5E7CA61E5AFA81002635B2 /* JeepCherokee.plist in Resources */,
+				EDEA129B1E56FAF200DE16F1 /* Audi@3x.png in Resources */,
+				EDEA12911E56F60B00DE16F1 /* BMWhighbeam@3x.png in Resources */,
+				ED5E7C991E5AC0B7002635B2 /* Ferrariwheel@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED000BAF1E4C478600D7FF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED000BBA1E4C478600D7FF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED000B941E4C478600D7FF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED000BA31E4C478600D7FF1E /* ViewController.m in Sources */,
+				EDEEE5891E4D99E900E2851C /* CarActionView.mm in Sources */,
+				ED000BA01E4C478600D7FF1E /* AppDelegate.m in Sources */,
+				ED000B9D1E4C478600D7FF1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED000BAD1E4C478600D7FF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED000BB61E4C478600D7FF1E /* lamborghiniTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED000BB81E4C478600D7FF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED000BC11E4C478600D7FF1E /* lamborghiniTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED000BB31E4C478600D7FF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED000B971E4C478600D7FF1E /* lamborghiniTest */;
+			targetProxy = ED000BB21E4C478600D7FF1E /* PBXContainerItemProxy */;
+		};
+		ED000BBE1E4C478600D7FF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED000B971E4C478600D7FF1E /* lamborghiniTest */;
+			targetProxy = ED000BBD1E4C478600D7FF1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED000BA41E4C478600D7FF1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED000BA51E4C478600D7FF1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED000BA91E4C478600D7FF1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED000BAA1E4C478600D7FF1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED000BC31E4C478600D7FF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED000BC41E4C478600D7FF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED000BC61E4C478600D7FF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Huang (9M85AWN6GQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = lamborghiniTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.lamborghiniTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		ED000BC71E4C478600D7FF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Huang (9M85AWN6GQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = lamborghiniTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.lamborghiniTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		ED000BC91E4C478600D7FF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lamborghiniTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.lamborghiniTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lamborghiniTest.app/lamborghiniTest";
+			};
+			name = Debug;
+		};
+		ED000BCA1E4C478600D7FF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lamborghiniTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.lamborghiniTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lamborghiniTest.app/lamborghiniTest";
+			};
+			name = Release;
+		};
+		ED000BCC1E4C478600D7FF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lamborghiniTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.lamborghiniTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lamborghiniTest;
+			};
+			name = Debug;
+		};
+		ED000BCD1E4C478600D7FF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lamborghiniTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.lamborghiniTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lamborghiniTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED000B931E4C478600D7FF1E /* Build configuration list for PBXProject "lamborghiniTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED000BC31E4C478600D7FF1E /* Debug */,
+				ED000BC41E4C478600D7FF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED000BC51E4C478600D7FF1E /* Build configuration list for PBXNativeTarget "lamborghiniTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED000BC61E4C478600D7FF1E /* Debug */,
+				ED000BC71E4C478600D7FF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED000BC81E4C478600D7FF1E /* Build configuration list for PBXNativeTarget "lamborghiniTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED000BC91E4C478600D7FF1E /* Debug */,
+				ED000BCA1E4C478600D7FF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED000BCB1E4C478600D7FF1E /* Build configuration list for PBXNativeTarget "lamborghiniTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED000BCC1E4C478600D7FF1E /* Debug */,
+				ED000BCD1E4C478600D7FF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED000B901E4C478600D7FF1E /* Project object */;
+}
